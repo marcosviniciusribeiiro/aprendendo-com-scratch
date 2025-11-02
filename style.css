@@ -31,6 +31,10 @@ h2 {
   padding-left: 10px;
 }
 
+h2:hover {
+  color: #183066;
+}
+
 p {
   line-height: 1.6;
   text-align: justify;
