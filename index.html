@@ -14,6 +14,14 @@
       </h1>
     </header>
 
+    <div id="modal" class="modal">
+      <span class="fechar" onclick="fecharModal()">&times;</span>
+      <button class="nav-btn anterior" onclick="navegar(-1)">&#10094;</button>
+      <img class="modal-conteudo" id="imagemModal" />
+      <button class="nav-btn proximo" onclick="navegar(1)">&#10095;</button>
+      <div id="descricao"></div>
+    </div>
+
     <main>
       <section id="apresentacao">
         <h2>Apresentação</h2>
@@ -44,56 +52,41 @@
           <img
             src="fotos/foto1.jpg"
             alt="Início das atividades e acolhimento das crianças"
-            onclick="abrirModal(this)"
           />
           <img
             src="fotos/foto2.jpg"
             alt="Professora da faculdade apresentando a proposta do projeto de Scratch"
-            onclick="abrirModal(this)"
           />
           <img
             src="fotos/foto3.jpg"
             alt="Crianças aprendendo conceitos de programação com Scratch"
-            onclick="abrirModal(this)"
           />
           <img
             src="fotos/foto4.jpg"
             alt="Alunos participando das oficinas práticas de programação"
-            onclick="abrirModal(this)"
           />
           <img
             src="fotos/foto5.jpg"
             alt="Monitores auxiliando os alunos durante as atividades"
-            onclick="abrirModal(this)"
           />
           <img
             src="fotos/foto6.jpg"
             alt="Tela de um dos projetos criativos desenvolvidos pelos alunos"
-            onclick="abrirModal(this)"
           />
           <img
             src="fotos/foto7.jpg"
             alt="Equipe de monitores que acompanharam a turma da manhã"
-            onclick="abrirModal(this)"
           />
           <img
             src="fotos/foto8.jpg"
             alt="Monitor esclarecendo dúvidas sobre o uso do Scratch"
-            onclick="abrirModal(this)"
           />
           <img
             src="fotos/foto9.jpg"
             alt="Criação livre demonstrando a criatividade dos alunos"
-            onclick="abrirModal(this)"
           />
         </div>
       </section>
-
-      <div id="modal" class="modal">
-        <span class="fechar" onclick="fecharModal()">&times;</span>
-        <img class="modal-conteudo" id="imagemModal" />
-        <div id="descricao"></div>
-      </div>
     </main>
 
     <footer>
